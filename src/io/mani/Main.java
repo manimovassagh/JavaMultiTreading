@@ -11,6 +11,19 @@ public class Main {
         Toaster toaster = new Toaster();
         RadioWerbung radioWerbung = new RadioWerbung();
         Thread radio = new Thread(radioWerbung);
+        Thread einsmaschine = new Thread(() -> {
+            for (int i = 0; i < 10; i++) {
+                System.out.println("Das Eis ist fertig in ");
+                try {
+                    Thread.sleep(500);
+
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        });
+
         System.out.println("Wellcome to \"Die Bohne\"!! ***************************** ");
         // kocher.run();
         // toaster.run();
@@ -20,8 +33,8 @@ public class Main {
         while (kocher.isAlive() || toaster.isAlive()) {
         }
 
-            for (int i = 0; i < 10; i++) {
-                System.out.println("Clean Table Nr: " + i);
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Clean Table Nr: " + i);
         }
         System.out.println("\n********* We are Closing now . See you agian Soon !! in \"Die Bohne!!\"**********************");
 
