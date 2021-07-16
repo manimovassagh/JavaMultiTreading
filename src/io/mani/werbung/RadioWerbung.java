@@ -1,14 +1,16 @@
 package io.mani.werbung;
 
-public class RadioWerbung extends Werbung {
+public class RadioWerbung extends Werbung implements Runnable {
+
+    @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
-          super.werben();
-          try {
-              Thread.sleep(500);
-          } catch (InterruptedException e){
-              e.printStackTrace();
-          }
+            super.werben();
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
