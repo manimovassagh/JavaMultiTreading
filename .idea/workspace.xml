@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f95d5be5-de7e-447b-b150-cb66cdf5d08c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/io/mani/werbung/RadioWerbung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/mani/werbung/RadioWerbung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/mani/werbung/RadioWerbung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/mani/werbung/Werbung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/mani/werbung/Werbung.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
